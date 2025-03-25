@@ -45,12 +45,14 @@ export async function GET(req: NextRequest) {
     }
 
     return NextResponse.json({ subscriptionActive: !!profile.subscriptionActive });
-  } catch (err: any) {
-    console.error("check-subscription error:", err.message);
+  } catch (err: unknown) {
+    const errorMessage = err instanceof Error ? err.message : 'Unknown error';
+    console.error("check-subscription error:", errorMessage);
     return NextResponse.json(
       { error: "Internal server error" },
       { status: 500 }
     );
   }
 }
+
 

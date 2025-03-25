@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "stripe:listen": "stripe listen --forward-to localhost:3000/api/stripe-webhook",
-   "postinstall": "prisma generate"
+    "postinstall": "prisma generate"
   },
   "dependencies": {
     "@clerk/nextjs": "^6.9.6",
@@ -40,6 +40,7 @@
     "typescript": "^5"
   }
 }
+
 
 
 
