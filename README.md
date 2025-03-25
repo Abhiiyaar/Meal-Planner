@@ -43,5 +43,3 @@ This project is a full stack AI SaaS web application built with NextJS 15, Tailw
 - Sign up or sign in using Clerk.
 - Manage your subscriptions and explore the AI-powered features.
 
-## Contributing
-Contributions are welcome! Please fork the repository, create a feature branch, and submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
