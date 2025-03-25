@@ -30,7 +30,7 @@ export default function HomePage() {
             Follow these simple steps to get your personalized meal plan
           </p>
         </div>
-        <div className="flex flex-col md:flex-row justify-center items-start space-y-8 md:space-y-0 md:space-x-8">
+        <div className="flex flex-col md:flex-row justify-center items-center space-y-8 md:space-y-0 md:space-x-8">
           {/* Step 1 */}
           <div className="flex flex-col items-center">
             <div className="bg-emerald-500 text-white rounded-full h-16 w-16 flex items-center justify-center mb-4">
